@@ -19,8 +19,7 @@ function Matematica() {
         <MatHero />
         
         <MatVideo1 />
-        <Divider className='max-w-5xl mx-auto'/>
-        <MatVideo2 />
+        <Divider className='max-w-3xl mx-auto'/>
         <MatButton />
         
     

@@ -20,8 +20,7 @@ function Recursos() {
         <RecLembre />
         
         <RecCards />
-        <RecPodcast />
-        <RecPodcastSug />
+        
         
     </>
     

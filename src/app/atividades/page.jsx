@@ -11,6 +11,7 @@ import AtiABPDrop from '../components/Atividades/AtiABPDrop'
 import AtiDica from '../components/Atividades/AtiDica'
 import AtiEstudante from '../components/Atividades/AtiEstudante'
 import AtiAAvalia from '../components/Atividades/AtiAAvalia'
+import Teste from '../components/Atividades/Teste'
 
 
 function Atividades() {
@@ -19,6 +20,7 @@ function Atividades() {
         
         <AtivHero />
         <AtiEtapas />
+        <Teste />
         <AtiAAvalia />
         <AtiAvalia />
         <AtiABP />
