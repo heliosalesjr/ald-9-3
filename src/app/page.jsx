@@ -1,11 +1,12 @@
 'use client'
 
 import { Divider } from "@nextui-org/react"
-import HeroSection from "./components/HeroSection"
+
 import IntroButons from "./components/IntroButons"
 import MainButton from "./components/MainButton"
 import OSite3 from "./components/OSite3"
 import Relembrando from "./components/Relembrando"
+import HeroBento from "./components/HeroBento"
 
 
 
@@ -13,7 +14,7 @@ export default function Home() {
   return (
     <>
       
-      <HeroSection />
+      <HeroBento />
       <OSite3 />
       <Divider className="max-w-3xl mx-auto mb-12" />  
       <Relembrando />
