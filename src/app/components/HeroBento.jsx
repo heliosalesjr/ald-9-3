@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroBento() {
   return (
-    <div className="flex h-[80vh] gap-4 max-w-7xl mx-auto px-4 pt-4">
+    <div className="flex h-[80vh] gap-4 max-w-7xl mx-auto px-4 pt-4 overflow:hidden">
       <div className="flex-1">
       <div className="relative h-3/4 bg-blue-200 rounded-xl flex flex-col justify-center items-center min-h-[500px]">
         <h1 className="text-5xl lg:text-6xl font-semibold text-slate-800 px-12">
@@ -20,9 +20,8 @@ function HeroBento() {
         </div>
 
       </div>
-      <div className="hidden md:block flex-1 relative mb-4 bg-gradient-to-b from-primary-focus to-primary-focus rounded-xl">
-        {/* Div para a faixa transparente no topo 
-        <div className="absolute top-0 left-0 w-full h-8 bg-white"></div>*/}
+      <div className="hidden md:block flex-1 relative mb-4 bg-gradient-to-b from-primary-focus to-primary-focus rounded-xl min-h-[550px]">
+        
         <div className="absolute inset-0 " style={{backgroundImage: 'url(images/mao9.png)', backgroundSize: 'cover', backgroundPosition: 'top'}}></div>
       </div>
     </div>
