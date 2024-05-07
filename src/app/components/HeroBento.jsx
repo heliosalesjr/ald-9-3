@@ -10,7 +10,7 @@ function HeroBento() {
         </h1>
 
         <p className="text-slate-950 p-12 lg:pr-20 ">
-          Olá, professor e professora! Seja bem-vindo e bem-vinda ao site de apoio da coleção <strong>Aprendendo a Lidar com Dinheiro: Educação Financeira</strong>. Nesta seção, há informações sobre o que são os sites “Aprendendo a Lidar com Dinheiro” e como estão organizados, facilitando a navegação e consulta. Vamos conhecê-los?
+        Olá, professores! Sejam bem-vindos ao terceiro site da camada digital da coleção <strong>Aprendendo a Lidar com Dinheiro – Educação Financeira</strong>. Veja abaixo sobre o que trataremos neste site.
         </p>
       </div>
         
